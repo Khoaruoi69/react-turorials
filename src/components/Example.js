@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import App from "../App";
+
 function Examples(){
     const [count,setCount] = useState(0);
     return(
